@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+}
+
+
+table {
+border-collapse: collapse;
+font-size: 30px;
+margin: 270px;
+margin-top: -10px;
+width: 60%;
+height: 200%;
+}
+
+th,td {
+	border: 2px solid;
+	color: black;
+	text-align: center;
+}
+th {
+	background-color: beige;
+}
