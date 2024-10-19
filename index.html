@@ -2,61 +2,86 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 	<link rel="icon" href="Images/logo1.png" sizes="16x16" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <style> 
+  body{
+    width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+  }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .teks {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      color: #1e1e1e;
+      text-align: justify;
+      width: 40%;
+    }
+    .gambar {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 15px;
+      width: 50%;
+      mar
+    }
+    .gambar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .tagline-medsos {
+    border: 2px solid black;
+    padding: 50px;
+    margin-top: 700px;
+    text-align: center;
+  }
+  </style>
+    
 </head>
-<body bgcolor="white">
-<h1 style="font-family: 'Inter', sans-serif; color: #1e1e1e; text-align: left; font-size: 20px; font-weight: normal; padding-bottom: 30px;"> 
-  <img  src="Images/logo1.png" style="width: 2cm; height: 2cm; margin-right: 20px;">Thinkerbooks</h1>
+<body>
 
+  <!--- Navigasi --->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img  src="Images/logo1.png" style="width: 2cm; height: 2cm;">
+    </div>
+    <div class="navbar-nav">
+      <h1 style="font-family: 'Inter', sans-serif; color: #1e1e1e; text-align: left; font-size: 20px; font-weight: normal; padding-bottom: 30px;">Thinkerbooks</h1>
+    </div>
+  </nav>
+ <!--- Navigasi --->
+
+<!--- header gambar --->
 	<header>
-  <img src="Images/headertb.png" alt="Logo Thinkerbooks" style="width: 98vw; height: auto; margin: 0; padding: 0;">
+  <img src="Images/headertb.png" alt="Logo Thinkerbooks" style="width: 98vw; height: auto;">
 </header>
+<!--- header gambar --->
 
 <hr style="border: none; border-top: 1px solid #1e1e1e; text-align: center; margin-top: 50px">
-<h1 style="font-family: 'Inter', sans-serif; color: #1e1e1e; text-align: center; font-size: 15px; font-weight: normal; background-color: beige; margin-top: 20px; margin-bottom: 20px;"><p class="text-with-large-background"><i>“Good friends, good books, and a sleepy conscience: this is the ideal life.” ― Mark Twain</i></h1>
+<h1 style="font-family: 'Inter', sans-serif; color: #1e1e1e; text-align: center; font-size: 15px; font-weight: normal; background-color: beige; margin-top: 20px; margin-bottom: 20px;"><q><i>Good friends, good books, and a sleepy conscience: this is the ideal life.</q> ― Mark Twain</i></h1>
 <hr style="border: none; border-top: 1px solid #1e1e1e; text-align: center; margin-bottom: 50px">
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  .teks {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #1e1e1e;
-    text-align: justify;
-    width: 40%;
-  }
-  .gambar {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;
-    width: 50%;
-    mar
-  }
-  .gambar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-</style>
-	
+<!--- Intro --->
+
 <div class="container">
   <div class="teks" style="margin: 20px; margin-top: -5px;">
     <p style="font-weight: bold; font-size: 45px; margin-top: 200px;"> Siapa sih kita?
-    <p style="font-size: 17px; margin-top: -5px;"> Thinkerbooks adalah sebuah komunitas buku penggerak literasi yang ada di Ciputat, Tangerang Selatan. Dibangun untuk membumikan membaca dan menjadi tangan penyalur buku untuk masyarakat sekitar.
-    <p style="font-weight: bold; font-size: 15px; margin-top: 30px;"> About Us
+    <p style="font-size: 17px; margin-top: -5px;"><i>Thinkerbooks</i> adalah sebuah komunitas buku penggerak literasi yang ada di Ciputat, Tangerang Selatan. Dibangun untuk membumikan membaca dan menjadi tangan penyalur buku untuk masyarakat sekitar.
+    <p style="font-weight: bold; font-size: 15px; margin-top: 30px; color: white; background-color: #1e1e1e; padding: 10px 20px; border: none; border-radius: 5px; display: inline-block;"> About Us</p>
   </div>
 
-  <div class="gambar" style="margin-left: -30px;">
+  <div class="gambar">
     <img src="Images/tb1.jpg" alt="Hanca Buku" title="Hanca Buku" class="fixed-image">
     <img src="Images/tb2.jpg" alt="Hanca Buku" title="Hanca Buku" class="fixed-image">
     <img src="Images/tb3.jpg" alt="Hanca Buku" title="Hanca Buku" class="fixed-image">
@@ -64,12 +89,49 @@
   </div>
 </div>
 
+<!--- Intro --->
+
 <hr style="border: none; border-top: 1px solid #1e1e1e; text-align: center; margin-top: 80px">
 
-<h1 style="font-family: 'Inter', sans-serif; color: #1e1e1e; text-align: center; font-size: 45px; margin-top: 70px; margin-bottom: 70px;">Our Activities</h1>
-<p style="font-family:'Inter', sans-serif; color:#1e1e1e; font-size: 40px; font-weight: bold;">
-<img src="Images/Home (2).png" alt="Hanca Buku" title="Hanca Buku" style="width: 70%; height: 40%; margin-left: -150px; float: left;"> Hanca Buku
-</p>
-<br>
+<h1 style="font-family: 'Inter', sans-serif; color: #1e1e1e; text-align: center; font-size: 55px; margin-top: 70px; margin-bottom: 70px;"><i>Our Activities</i></h1>
+
+<hr style="border: none; border-top: 1px solid #1e1e1e; text-align: center; margin-top: 80px; margin-bottom: 80px;">
+
+<!-- kegiatan -->
+
+<h2 style="font-family:'Inter', sans-serif; color:#1e1e1e; font-size: 45px; font-weight: bold;">
+  <img src="Images/Home (3).png" alt="Hanca Buku" title="Hanca Buku" style="width: 40%; height: 40%; margin-left: 55px; float: left;"> Hanca Buku
+</h2> 
+<p style="font-family:'Inter', sans-serif; color:#1e1e1e; font-size: 15px; text-align: justify; margin-left: 500px;">
+  Hanca buku adalah sebuah kegiatan membaca buku secara bersama dengan ssenyap dan 
+  dilanjutkan sharing bersama mengenai buku yang telah di baca.</p>
+  <p style="font-family:'Inter', sans-serif; color:#1e1e1e; font-size: 15px; text-align: justify;">
+    Bertujuan untuk membumikan budaya membaca di kalangan pelajar, terkhusus mahasiswa-mahasiswi UIN Jakarta. 
+    Namun, thinkerbook tetap terbuka bagi kalangan umum yang ingin datang membaca bersama ^_^
+  </p>
+  <p style="font-family:'Inter', sans-serif; color:#1e1e1e; font-size: 15px; text-align: justify;">
+    Hanca buku, biasanya dilaksanakan setiap hari <strong>Selasa</strong> di halaman <strong>Fakultas Ilmu Sosial dan Politik (FISIP)</strong>.
+    Tidak hanya di fakultas itu saja, Thinkerbooks mencoba untuk membumikan di semua fakultas yang ada di UIN Jakarta. Artinya,
+    setiap kegiatan akan dilaksanakan di fakultas yang berbeda setiap pekannya, dengan catatan, tidak ada kendala.
+  </p>
+</div>
+</section>
+
+<!--- Footer --->
+<footer>
+
+ <div class="tagline tagline-medsos">
+  <p style="color: whitesmoke:'Inter', sans-serif; font-size: 25px; text-align: center;">
+    <strong><i>Books are heaven, be with us to make it happen!</i></strong>
+  </p>
+  <p style="color: whitesmoke:'Inter', sans-serif; font-size: 20px; text-align: center;"> 
+    Find Us on : @thinkerbooks.id (instagram)
+  </p>
+  <p style="color: whitesmoke:'Inter', sans-serif; font-size: 20px; text-align: center;">
+    <a href="https://www.instagram.com/thinkerbooks.id/" target="_blank">Instagram Thinkerbooks</a>
+  </p>
+ </div>
+</footer>
+
 </body>
 </html>
