@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+/*background homepage*/
+.blubbg {
+    height: 70vh;
+    width: 94%;
+    background-image: url(Images/blub.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+}
+
+.blubbg h2 {
+    color: rgb(19, 1, 79);
+    padding: 30px 40px;
+    border: 6px solid rgb(37, 37, 116);
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+.blubbg h3 {
+    color:rgb(26, 4, 86);
+    padding: 20px;
+    position:absolute;
+    bottom:20%;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+/*bagian navbar - home page atas*/
+header {
+    background-color: rgba(240, 248, 255, 0.9); /* Slight transparency */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #34495e;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #1abc9c;
+}
+
+.search-button button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-button button:hover {
+    background-color: #16a085;
+}
+
+/*bagian float dan paragraf home*/
+.content-float {
+    max-width: 800px;
+    margin: 20px;
+}
+
+.float-image {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 220px;
+    border-radius: 5px; 
+}
+
+.teks {
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+/*padding dan gambar - about us*/
+.sub-padding {
+    padding: 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.content {
+    background-color: rgba(114, 211, 241, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #34495e;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*tabel fakta menarik*/
+h1 {
+    text-align: center;
+    color: #1b2f43;
+    outline-style: ridge;
+    outline-color: #2b6f7e;
+    outline-width: 5px;
+}
+
+.fakta-menarik {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fakta-menarik th, 
+.fakta-menarik td {
+    border: 1px solid #2b6f7e;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fakta-menarik th {
+    background-color: #65c6d5;
+    color: rgb(9, 41, 69);
+    font-size: 1.2em;
+}
+.fakta-menarik td img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.fakta-menarik td {
+    font-size: 15px;
+    color: #1b344c;
+    line-height: 1.4;
+}
+
+footer {
+    background-color: rgba(240, 248, 255, 0.9); 
+    padding: 10px; 
+    text-align: left; 
+    font-family: Verdana;
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1190px; 
+    margin: 0 auto; 
+}
+.tagline {
+    padding-top: 20px;
+}
+.kontak {
+    padding-top: 20px;
+    padding-left: 510px;
+}
+.icons {
+    padding-top: 18px;
+}
+.fa-brands.fa-instagram.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
+}
+.fa-brands.fa-youtube.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
+}
+.fa-brands.fa-x-twitter.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
+}
