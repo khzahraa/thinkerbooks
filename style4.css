@@ -1,0 +1,443 @@
+header {
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1500;
+}
+
+/* navigasi bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #636161;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* quotes dari tokoh */
+.quotes hr {
+    border: none;
+    border-top: 1px solid #1e1e1e;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+
+.quotes h1 {
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    background-color: beige;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+/* bagian intro */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.teks {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #1e1e1e;
+    text-align: justify;
+    width: 40%;
+    margin: 20px;
+    margin-top: -5px;
+}
+
+.teks h2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+.teks p {
+    font-size: 17px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.teks h3 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.teks h3 a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.gambar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    width: 50%;
+}
+
+.gambar img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* event tb */
+.KegiatanTB hr {
+    border: none;
+    border-top: 1px solid #1e1e1e;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.KegiatanTB h1 {
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* hanca buku */
+.kegiatan1 img {
+    width: 40%;
+    height: 40%;
+    padding-bottom: -100rem;
+    margin-left: 55px;
+    margin-right: 20px;
+    float: left;
+}
+
+.kegiatan1 h2 {
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.kegiatan1 p {
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 70px;
+}
+
+/* book from heaven & ngulitin buku*/
+.kegiatan2 img {
+    width: 42%;
+    height: 40%;
+    margin-left: -550px;
+    float: left
+}
+
+.kegiatan2 h2 {
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 6rem
+}
+
+.kegiatan2 .paragraf {
+    /* padding: 5rem 0; */
+    padding-bottom: 10rem;
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 70px;
+    margin-left: 50px;
+}
+
+.tabelkegiatan hr {
+    border: none;
+    border-top: 1px solid #1e1e1e;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.tabelkegiatan h1 {
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'inter', sans-serif;
+    margin: 230px;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    width: 70%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 3px solid;
+    color: black;
+    height: 80px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: beige;
+}
+
+/* rekomendasi buku */
+.rekomendasi hr {
+    border: none;
+    border-top: 1px solid #1e1e1e;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.rekomendasi h1 {
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+
+.Buku h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    color: #1e1e1e;
+}
+
+.Buku p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 50px;
+    color: #1e1e1e;
+    text-align: justify;
+    margin-right: 70px;
+    color: #1e1e1e;
+}
+
+.Buku ol {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #1e1e1e;
+}
+
+.Buku li {
+    margin-left: 50px;
+}
+
+.container img {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+span {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 97px;
+    padding-right: 20px
+}
+
+#lihatLainnya {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 50px;
+    color: white;
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.comment-section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.comment-section h2 {
+    text-align: center;
+    color: #1e1e1e;
+    outline-style: groove;
+    outline-color: #1e1e1e;
+    outline-width: 4px;
+    margin: 20px auto;
+    padding: 8px;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form label {
+    margin: 10px 0 5px;
+
+}
+
+.comment-form input,
+.comment-form textarea {
+    padding: 10px;
+    border: 1px solid #1e1e1e;
+    border-radius: 4px;
+}
+
+.comment-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #3f3e3e;
+}
+
+/* vid kegiatan */
+
+.vidKegiatan hr {
+    border: none;
+    border-top: 1px solid #1e1e1e;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.vidKegiatan h1 {
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+
+.vidKegiatan1 {
+    background-image: url(Images/bgvidkegiatan.jpeg);
+    background-size: 50%;
+    background-position: center;
+    background: transparent 50;
+}
+
+.vidKegiatan1 video {
+    width: 75%;
+    height: auto;
+    border: 10px solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.vidKegiatan1 img {
+    width: 98%;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+/* footer */
+.footer-content {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+
+.fa-brands.fa-instagram.fa-1x {
+    color: #1e1e1e;
+}
+
+.fa-brands.fa-x-twitter.fa-1x {
+    color: #1e1e1e;
+}
